@@ -1,0 +1,5 @@
+# For data processing
+numpy>=1.24.0
+
+# For genomic visualizations
+matplotlib>=3.7.0

@@ -1,3 +1,12 @@
+# Ignore large genomic data
+data/chr22.fa
+data/chr22.fa.gz
+
+# Ignore Python cache and environment
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
