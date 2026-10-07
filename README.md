@@ -1,4 +1,11 @@
-# CpG Island Detector using HMM
+# CpG Island Detector using Viterbi HMM
+
+[![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-Vectorized-013243?logo=numpy&logoColor=white)](https://numpy.org/)
+[![Bioinformatics](https://img.shields.io/badge/Domain-Bioinformatics%20%7C%20Genomics-darkgreen)](#)
+[![Format-BED](https://img.shields.io/badge/Output-BED3%20Format-orange)](#)
+[![Algorithm](https://img.shields.io/badge/Algorithm-Viterbi%20Dynamic%20Programming-purple)](#)
+[![Benchmark-UCSC](https://img.shields.io/badge/Benchmark-UCSC%20hg38-informational)](https://genome.ucsc.edu/)
 
 ## **Project Overview**
 ### Project summary:
@@ -12,6 +19,16 @@
     * `.bed` 3-column BED file containing the specific start and end coordinates of every predicted CpG island that passed the 200bp biological length filter
     * `.txt` A statistical summary report containing the model's Sensitivity and Precision.
     * `.png` A genomic track plot that overlays the HMM predicted Viterbi path with local GC-content percentages, providing visual confirmation of the model’s state transitions across the chromosome.
+
+## Built With
+
+| Category | Tools & Technologies |
+| :--- | :--- |
+| **Language & Runtime** | Python 3.8+, Bash / Shell scripting |
+| **Core Libraries** | `numpy` (vectorized matrix operations & log-space calculations), `matplotlib` (genomic track plotting) |
+| **Genomic Formats** | FASTA (input assembly sequences), BED3 (predicted island intervals) |
+| **Reference Datasets** | UCSC Genome Browser GRCh38 (`chr22.fa`, `cpgIslandExt` benchmark) |
+| **Environment** | Linux CLI / macOS, Git/GitHub |
 
 ## **Installation and Setup**
 
